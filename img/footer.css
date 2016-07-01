@@ -1,0 +1,154 @@
+/*footer start*/
+#hnz_footer_box{
+	width:100%;
+	height:300px;
+}
+.hnz_footer_up{
+	width:100%;
+	height:267px;
+	overflow: hidden;
+	background: url("../images/hnz_footer_bg.jpg") repeat 0 0;
+}
+.hnz_footer_upin{
+	width:1100px;
+	height:150px;
+	margin:0 auto;
+	margin-top:50px;
+}
+.hnz_footer_bottom{
+	width:100%;
+	height:33px;
+	background:#212121;
+	color:#fff;
+	text-align: center;
+	line-height: 33px;
+	font-size: 14px;
+}
+.hnz_footer_upin_img{
+	width:33.333%;
+	height:100%;
+	float:left;
+	background: url(../images/hnz_logo_a.png) no-repeat 45px 0;
+}
+.hnz_footer_upin_number{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6,.hnz_footer_upin_address h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+.hnz_number,.hnz_address{
+	width:100%;
+	height:120px;
+}
+.hnz_number_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_phone.png) no-repeat 5px 5px;
+}
+.hnz_address_l{
+	width:35px;
+	height:120px;
+	float:left;
+	background:url(../images/hnz_icon_address.png) no-repeat 5px 0px;
+}
+.hnz_number_r,.hnz_address_r{
+	float:left;
+	width:auto;
+}
+.hnz_number_r{
+	width:120px;
+	color:#fff;
+	font-weight: bold;
+	line-height:28px;
+	font-size: 16px;
+}
+.hnz_address_r{
+	width:300px;
+	color:#fff;
+	line-height:28px;
+	font-size: 16px;
+}
+.hnz_footer_upin_address{
+	width:33.333%;
+	height:100%;
+	float:left;
+}
+.hnz_footer_upin_number h6{
+	width:100%;
+	height:35px;
+	font-size:18px;
+	color:#fff;
+}
+/*footer end*/
+/*二维码*/
+.hnz_ewm_box{
+	width:60px;
+	height:140px;
+	
+	position:fixed;
+	bottom:30px;
+	left:50%;
+	margin-left:570px;
+	z-index: 99999999;
+}
+.hnz_ewm_box a{
+	display: inline-block;
+	width:100%;
+	height:60px;
+	text-align: center;
+	line-height:60px;
+	color:#fff;
+	transition: all .6s;
+	-webkit-transition: all .6s;
+}
+.hnz_ewm_box .hnz_back{
+	margin-bottom:20px;
+}
+.hnz_ewm_box .hnz_ewm_link{
+	background:#009494;
+	position:absolute;
+	box-shadow:0 0 8px #888;
+	-webkit-box-shadow:0 0 8px #888;
+	bottom:0;
+}
+.hnz_ewm_box .hnz_ewm_link:hover{
+	background:#FA801D;
+	
+}
+.hnz_ewm{
+	width:0px;
+	height:0px;
+	border:8px solid #009494;
+	position: absolute;
+	bottom: 0;
+	right:60px;
+	display: none;
+}
+.hnz_ewm img{
+	width:100%;
+	height:100%;
+}
+
+
+ @font-face {
+        font-family: 'iconfont';
+        src: url('font/iconfont.eot'); /* IE9*/
+        src: url('font/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('font/iconfont.woff') format('woff'), /* chrome、firefox */
+        url('font/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('font/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    }
+.hnz_ma{
+    font-family:"iconfont" !important;
+    font-size:45px;font-style:normal;
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
